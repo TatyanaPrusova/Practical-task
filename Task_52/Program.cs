@@ -30,6 +30,6 @@ for (int j = 0; j < matrix.GetLength(1); j++)
     {
         sum+=matrix[i,j];
     }
-    Console.Write($"{sum/matrix.GetLength(0)} ");
+    Console.Write($"{sum/matrix.GetLength(0)}; ");
 }
 Console.ReadLine();
